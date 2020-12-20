@@ -1,0 +1,34 @@
+
+.bootcamp{
+	background-position-x: 35%;
+}
+
+
+.curriculum ul {
+	grid-template-columns: minmax(auto, 450px);
+	row-gap: 30px;
+}
+
+
+.pricing-cards-container{
+flex-wrap: wrap;
+}
+
+.pricing-card{
+	width: 100%;
+	border-radius: .3em !important;
+	margin-bottom: 1rem;
+
+}
+
+.pricing-card:last-child{
+	margin-bottom: 0;
+}
+
+/* .pricing-card:first-child{
+	border-radius: .3em 0 0 .3em;
+}
+
+.pricing-card:last-child{
+	border-radius: 0 .3em .3em 0;
+} */
